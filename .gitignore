@@ -1,0 +1,41 @@
+# Ignore Python virtual environments
+venv/
+ENV/
+env/
+llava_env/
+LLAVA_MED_BACKEND/
+app/LLAVA_MED_BACKEND/
+app/Lib/
+app/Include/
+app/Scripts/
+app/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+
+LLAVA_MED_BACKEND/Lib/
+LLAVA_MED_BACKEND/Include/
+LLAVA_MED_BACKEND/Scripts/
+LLAVA_MED_BACKEND/pyvenv.cfg
+*.dll
+*.lib
+
+# Ignore log and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore compiled files
+*.so
+
+# Ignore local configuration
+*.env
+*.ini
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
